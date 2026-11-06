@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 430" fill="none" aria-hidden="true">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c7e8e8"/>
+      <stop offset="46%" stop-color="#c7e8e8"/>
+      <stop offset="46%" stop-color="#ffbd55"/>
+      <stop offset="70%" stop-color="#ffbd55"/>
+      <stop offset="70%" stop-color="#f2adcc"/>
+      <stop offset="100%" stop-color="#f2adcc"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="430" fill="url(#bg)"/>
+  <g transform="translate(65 52) rotate(-2 235 165)">
+    <rect x="0" y="0" width="470" height="330" rx="10" fill="#fff" stroke="#171715" stroke-width="1"/>
+    <rect x="0" y="0" width="470" height="30" fill="#efefe9"/>
+    <line x1="0" y1="30" x2="470" y2="30" stroke="#d0d0c8"/>
+    <circle cx="12" cy="15" r="3" fill="#8b8b83"/>
+    <circle cx="23" cy="15" r="3" fill="#8b8b83"/>
+    <circle cx="34" cy="15" r="3" fill="#8b8b83"/>
+    <rect x="0" y="30" width="470" height="300" fill="#2b2b28"/>
+    <text x="235" y="78" fill="#fff" font-family="Arial,sans-serif" font-size="20" font-weight="700" letter-spacing="0.05em" text-anchor="middle">YOUR MEME</text>
+    <rect x="160" y="95" width="150" height="120" fill="none" stroke="#aaa9a1" stroke-width="1" stroke-dasharray="4 4"/>
+    <text x="235" y="145" fill="#aaa9a1" font-family="ui-monospace,monospace" font-size="14" text-anchor="middle">IMAGE</text>
+    <text x="235" y="165" fill="#aaa9a1" font-family="ui-monospace,monospace" font-size="14" text-anchor="middle">PREVIEW</text>
+    <text x="235" y="248" fill="#fff" font-family="Arial,sans-serif" font-size="20" font-weight="700" letter-spacing="0.05em" text-anchor="middle">GOES HERE</text>
+  </g>
+  <rect x="0" y="0" width="600" height="430" fill="none" pointer-events="none"/>
+</svg>

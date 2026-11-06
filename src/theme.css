@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@theme {
+  /* Fonts (Google Fonts loaded in HTML) */
+  --font-sans: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "DM Mono", ui-monospace, monospace;
+
+  /* Ink — neutral scale from workshop home */
+  --color-ink-50: #f8f8f5;
+  --color-ink-100: #efefe9;
+  --color-ink-200: #d9d9d2;
+  --color-ink-300: #c9c9c1;
+  --color-ink-400: #aaa9a1;
+  --color-ink-500: #77776f;
+  --color-ink-600: #66665f;
+  --color-ink-700: #55554f;
+  --color-ink-800: #353530;
+  --color-ink-900: #171715;
+  --color-ink-950: #222220;
+
+  /* Sage — example card */
+  --color-sage-100: #eef1eb;
+  --color-sage-200: #dfe4d8;
+  --color-sage-300: #c7d4bc;
+
+  /* Lilac — guide card */
+  --color-lilac-100: #f3edff;
+  --color-lilac-200: #e8ddff;
+  --color-lilac-300: #d8c9ff;
+
+  /* Lime — resource strip accent */
+  --color-lime-200: #e8ff8a;
+  --color-lime-300: #dfff64;
+  --color-lime-400: #c8f050;
+
+  /* Fluid typography */
+  --text-display: clamp(3rem, 5.6vw, 5.5rem);
+  --text-display--line-height: 0.97;
+  --text-display--letter-spacing: -0.06em;
+
+  --text-lead: clamp(0.875rem, 1.2vw + 0.75rem, 1.0625rem);
+  --text-lead--line-height: 1.65;
+
+  /* Card preview art height */
+  --spacing-card-art: clamp(16.875rem, 30vw, 26.875rem);
+}

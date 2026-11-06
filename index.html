@@ -1,0 +1,349 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IADT Computing: Taster Session</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="dist/styles.css" />
+  </head>
+  <body class="flex min-h-screen flex-col bg-ink-50 font-sans text-ink-900 antialiased">
+    <header
+      class="sticky top-0 flex h-16 shrink-0 items-center justify-between gap-4 border-b border-ink-200 bg-ink-50/95 px-4 backdrop-blur-sm lg:h-20 lg:px-[3.2vw]"
+    >
+      <a
+        href="#"
+        class="inline-flex max-w-2xs items-center gap-3 text-sm font-bold no-underline text-ink-900 lg:max-w-none"
+      >
+        <span
+          class="grid size-7 shrink-0 place-items-center rounded-full bg-ink-900 text-sm text-white"
+          aria-hidden="true"
+          >I</span
+        >
+        <span>
+          IADT Computing:
+          <b class="font-medium text-ink-500 max-lg:hidden">Taster Session</b>
+        </span>
+      </a>
+
+      <nav
+        class="hidden h-full items-center gap-8 lg:flex"
+        aria-label="Main navigation"
+      >
+        <a
+          href="#"
+          class="flex h-full items-center gap-1.5 border-b-2 border-ink-900 text-sm font-semibold no-underline"
+          >Home</a
+        >
+        <a
+          href="#guide"
+          class="flex h-full items-center gap-1.5 border-b-2 border-transparent text-sm font-semibold no-underline hover:border-ink-900"
+          >Guide</a
+        >
+        <a
+          href="#"
+          target="_blank"
+          rel="noreferrer"
+          class="flex h-full items-center gap-1.5 border-b-2 border-transparent text-sm font-semibold no-underline hover:border-ink-900"
+        >
+          Meme-ify
+          <img
+            src="icons/external-link.svg"
+            alt=""
+            class="size-4"
+            width="20"
+            height="20"
+          />
+        </a>
+      </nav>
+
+      <input type="checkbox" id="nav-toggle" class="peer sr-only" />
+      <label
+        for="nav-toggle"
+        class="flex size-10 shrink-0 cursor-pointer flex-col items-center justify-center gap-1.5 rounded-md border border-ink-200 bg-white lg:hidden"
+      >
+        <span class="sr-only">Open menu</span>
+        <span class="block h-0.5 w-5 bg-ink-900" aria-hidden="true"></span>
+        <span class="block h-0.5 w-5 bg-ink-900" aria-hidden="true"></span>
+        <span class="block h-0.5 w-5 bg-ink-900" aria-hidden="true"></span>
+      </label>
+
+      <nav
+        class="absolute left-0 right-0 top-16 hidden flex-col gap-1 border-b border-ink-200 bg-ink-50 px-4 py-3 max-lg:peer-checked:flex lg:hidden"
+        aria-label="Mobile navigation"
+      >
+        <a
+          href="#"
+          class="flex items-center gap-1.5 border-b border-ink-900 py-3 text-sm font-semibold no-underline"
+          >Home</a
+        >
+        <a
+          href="#guide"
+          class="flex items-center gap-1.5 border-b border-ink-200 py-3 text-sm font-semibold no-underline"
+          >Guide</a
+        >
+        <a
+          href="#"
+          target="_blank"
+          rel="noreferrer"
+          class="flex items-center gap-1.5 border-b border-ink-200 py-3 text-sm font-semibold no-underline"
+        >
+          Meme-ify
+          <img
+            src="icons/external-link.svg"
+            alt=""
+            class="size-4"
+            width="20"
+            height="20"
+          />
+        </a>
+      </nav>
+    </header>
+
+    <main class="flex-1">
+      <section
+        class="mx-auto w-full max-w-[86rem] px-4 py-11 lg:px-[3.2vw] lg:pb-12 lg:pt-16"
+      >
+        <div class="mx-auto mb-9 max-w-4xl text-center lg:mb-12">
+          <div
+            class="mb-5 flex items-center justify-center gap-2.5 text-sm font-extrabold uppercase tracking-widest lg:mb-6"
+          >
+            <span class="h-0.5 w-6 bg-ink-900" aria-hidden="true"></span>
+            Student workshop
+          </div>
+          <h1 class="text-display font-semibold text-ink-900">
+            Code a meme creation app
+          </h1>
+          <p class="text-lead mx-auto mt-6 max-w-2xl text-ink-700 lg:mt-7">
+            A practical introduction to HTML and JavaScript in the p5.js editor,
+            using a provided stylesheet and helper functions, built to follow
+            during today’s session and return to whenever you need it.
+          </p>
+          <div
+            class="mt-6 flex flex-wrap items-center justify-center gap-3 text-sm font-semibold text-ink-700 max-md:grid max-md:grid-cols-2 max-md:gap-3 md:mt-6 md:gap-6"
+          >
+            <span class="inline-flex items-baseline gap-1.5 max-md:justify-center">
+              <b class="text-lg text-ink-900">15</b> guided steps
+            </span>
+            <span
+              class="inline-flex items-baseline gap-1.5 border-ink-200 pl-0 max-md:justify-center md:border-l md:pl-6"
+            >
+              <b class="text-lg text-ink-900">≈2</b> hours in class
+            </span>
+            <span
+              class="col-span-2 inline-flex items-baseline justify-center gap-1.5 max-md:col-span-2 md:col-span-1 md:border-l md:pl-6"
+            >
+              Available after the session
+            </span>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 gap-3.5 lg:grid-cols-2 lg:gap-4">
+          <a
+            href="#"
+            target="_blank"
+            rel="noreferrer"
+            class="flex min-w-0 flex-col overflow-hidden rounded-2xl bg-sage-200 text-left text-ink-900 no-underline transition-[margin] duration-200 hover:-mt-1 hover:mb-1"
+          >
+            <div
+              class="flex min-h-14 items-center justify-between px-4 text-sm lg:min-h-16 lg:px-6"
+            >
+              <span class="font-bold">
+                <b class="mr-2.5 font-mono font-normal text-ink-500">01</b>
+                See where you’re heading
+              </span>
+              <em
+                class="flex items-center gap-2 rounded-full bg-ink-900 px-3 py-2 text-sm font-bold not-italic text-white lg:px-3.5 lg:py-2.5"
+              >
+                Open site
+                <img
+                  src="icons/external-link-white.svg"
+                  alt=""
+                  class="size-4"
+                  width="20"
+                  height="20"
+                />
+              </em>
+            </div>
+            <div
+              class="mx-2.5 h-card-art overflow-hidden rounded-lg lg:mx-4 lg:rounded-xl"
+            >
+              <img
+                src="images/example-preview.svg"
+                alt="Placeholder preview of the finished Meme-ify website"
+                class="size-full object-cover"
+                width="600"
+                height="430"
+              />
+            </div>
+            <div
+              class="grid min-h-32 grid-cols-1 gap-2 p-5 lg:grid-cols-2 lg:items-end lg:gap-5 lg:p-6"
+            >
+              <div>
+                <span
+                  class="mb-1 block text-sm font-extrabold uppercase tracking-widest text-ink-600"
+                  >Finished example</span
+                >
+                <h2 class="m-0 text-xl tracking-tight lg:text-2xl">
+                  Explore Meme-ify
+                </h2>
+              </div>
+              <p class="m-0 text-sm leading-normal text-ink-700">
+                See the page you’ll build and compare your work with it at any
+                point.
+              </p>
+            </div>
+          </a>
+
+          <a
+            id="guide"
+            href="#"
+            class="flex min-w-0 flex-col overflow-hidden rounded-2xl bg-lilac-200 text-left text-ink-900 no-underline transition-[margin] duration-200 hover:-mt-1 hover:mb-1"
+          >
+            <div
+              class="flex min-h-14 items-center justify-between px-4 text-sm lg:min-h-16 lg:px-6"
+            >
+              <span class="font-bold">
+                <b class="mr-2.5 font-mono font-normal text-ink-500">02</b>
+                Build it step by step
+              </span>
+              <em
+                class="flex items-center gap-2 rounded-full bg-ink-900 px-3 py-2 text-sm font-bold not-italic text-white lg:px-3.5 lg:py-2.5"
+              >
+                Start guide
+                <img
+                  src="icons/arrow-right-white.svg"
+                  alt=""
+                  class="size-4"
+                  width="20"
+                  height="20"
+                />
+              </em>
+            </div>
+            <div
+              class="mx-2.5 h-card-art overflow-hidden rounded-lg lg:mx-4 lg:rounded-xl"
+            >
+              <img
+                src="images/guide-preview.svg"
+                alt="Preview of the step-by-step workshop guide"
+                class="size-full object-cover"
+                width="600"
+                height="430"
+              />
+            </div>
+            <div
+              class="grid min-h-32 grid-cols-1 gap-2 p-5 lg:grid-cols-2 lg:items-end lg:gap-5 lg:p-6"
+            >
+              <div>
+                <span
+                  class="mb-1 block text-sm font-extrabold uppercase tracking-widest text-ink-600"
+                  >15 clear steps</span
+                >
+                <h2 class="m-0 text-xl tracking-tight lg:text-2xl">
+                  Follow the guide
+                </h2>
+              </div>
+              <p class="m-0 text-sm leading-normal text-ink-700">
+                Use it beside your editor today, then jump back to any step
+                after the session.
+              </p>
+            </div>
+          </a>
+        </div>
+
+        <div
+          class="mx-auto mt-10 max-w-4xl gap-7 lg:mt-14 lg:flex lg:items-start"
+        >
+          <span
+            class="mb-3 block text-sm font-extrabold uppercase tracking-widest lg:mb-0 lg:w-32 lg:shrink-0 lg:pt-1"
+            >How we’ll work</span
+          >
+          <p class="m-0 flex-1 text-sm leading-relaxed text-ink-700 lg:min-w-0">
+            You’ll build the page in the online <b class="font-bold text-ink-900">p5.js editor</b>:
+            type HTML in index.html, call helper functions from sketch.js, and use class
+            names from the provided stylesheet. No CSS to write today. On each
+            step, switch to Advanced to use document.getElementById instead of
+            the helpers.
+          </p>
+          <a
+            href="https://editor.p5js.org/indihth/sketches/qt4g9h3-V"
+            target="_blank"
+            rel="noreferrer"
+            class="mt-4 flex items-center gap-1.5 text-sm font-extrabold whitespace-nowrap no-underline lg:mt-0 lg:shrink-0"
+          >
+            Visit the p5.js editor
+            <img
+              src="icons/external-link.svg"
+              alt=""
+              class="size-4"
+              width="20"
+              height="20"
+            />
+          </a>
+        </div>
+      </section>
+
+      <section
+        class="grid grid-cols-1 border-t border-ink-200 bg-white lg:grid-cols-3"
+      >
+        <div class="min-h-24 bg-ink-900 px-5 py-6 text-white lg:min-h-28 lg:px-[3.2vw]">
+          <span
+            class="text-sm font-extrabold uppercase tracking-widest text-lime-300"
+            >Two useful links</span
+          >
+          <p class="mt-2.5 max-w-2xs text-sm leading-snug text-ink-200">
+            The example is your goal. You’ll save a copy of the template in step
+            1.
+          </p>
+        </div>
+        <a
+          href="#"
+          target="_blank"
+          rel="noreferrer"
+          class="flex min-h-24 items-center gap-3 border-b border-ink-200 px-5 py-6 no-underline text-ink-900 hover:bg-ink-100 lg:min-h-28 lg:border-r lg:border-b-0 lg:px-[3.2vw]"
+        >
+          <span class="w-8 shrink-0 font-mono text-sm text-ink-400 lg:w-10">01</span>
+          <span class="min-w-0 flex-1">
+            <b class="block text-sm">Open the finished app</b>
+            <small class="mt-1.5 block text-sm text-ink-500"
+              >Compare your work at any time</small
+            >
+          </span>
+          <img
+            src="icons/external-link.svg"
+            alt=""
+            class="size-5 shrink-0"
+            width="20"
+            height="20"
+          />
+        </a>
+        <a
+          href="https://editor.p5js.org/indihth/sketches/qt4g9h3-V"
+          target="_blank"
+          rel="noreferrer"
+          class="flex min-h-24 items-center gap-3 px-5 py-6 no-underline text-ink-900 hover:bg-ink-100 lg:min-h-28 lg:px-[3.2vw]"
+        >
+          <span class="w-8 shrink-0 font-mono text-sm text-ink-400 lg:w-10">02</span>
+          <span class="min-w-0 flex-1">
+            <b class="block text-sm">Open the p5.js sketch</b>
+            <small class="mt-1.5 block text-sm text-ink-500"
+              >Workshop template to copy in step 1</small
+            >
+          </span>
+          <img
+            src="icons/external-link.svg"
+            alt=""
+            class="size-5 shrink-0"
+            width="20"
+            height="20"
+          />
+        </a>
+      </section>
+    </main>
+  </body>
+</html>

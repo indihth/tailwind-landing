@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="430" viewBox="0 0 600 430" fill="none" role="img" aria-label="Preview of the step-by-step workshop guide">
+  <title>Workshop guide preview</title>
+  <rect width="600" height="430" rx="13" fill="#f9f9f6" stroke="#171715" stroke-opacity="0.25"/>
+  <rect x="0" y="0" width="210" height="430" fill="#efefe9"/>
+  <line x1="210" y1="0" x2="210" y2="430" stroke="#d0d0c8" stroke-width="1"/>
+  <text x="20" y="36" fill="#171715" font-family="Manrope, Arial, sans-serif" font-size="11" font-weight="800" letter-spacing="1.1">WORKSHOP STEPS</text>
+  <rect x="12" y="52" width="186" height="39" rx="5" fill="#171715"/>
+  <text x="28" y="77" fill="#ffffff" font-family="DM Mono, ui-monospace, monospace" font-size="14" font-style="normal">1</text>
+  <rect x="52" y="70" width="130" height="6" rx="3" fill="#c9c9c1"/>
+  <text x="28" y="116" fill="#77776f" font-family="DM Mono, ui-monospace, monospace" font-size="14" font-style="normal">2</text>
+  <rect x="52" y="109" width="130" height="6" rx="3" fill="#c9c9c1"/>
+  <text x="28" y="155" fill="#77776f" font-family="DM Mono, ui-monospace, monospace" font-size="14" font-style="normal">3</text>
+  <rect x="52" y="148" width="130" height="6" rx="3" fill="#c9c9c1"/>
+  <text x="28" y="194" fill="#77776f" font-family="DM Mono, ui-monospace, monospace" font-size="14" font-style="normal">4</text>
+  <rect x="52" y="187" width="130" height="6" rx="3" fill="#c9c9c1"/>
+  <text x="28" y="233" fill="#77776f" font-family="DM Mono, ui-monospace, monospace" font-size="14" font-style="normal">5</text>
+  <rect x="52" y="226" width="130" height="6" rx="3" fill="#c9c9c1"/>
+  <text x="242" y="48" fill="#171715" font-family="Manrope, Arial, sans-serif" font-size="11" font-weight="800" letter-spacing="1.1">STEP 1 OF 15</text>
+  <rect x="242" y="58" width="330" height="3" rx="1.5" fill="#deded6"/>
+  <rect x="242" y="58" width="46" height="3" rx="1.5" fill="#171715"/>
+  <text x="242" y="108" fill="#171715" font-family="Manrope, Arial, sans-serif" font-size="32" font-weight="600" letter-spacing="-1.6">Set up p5.js</text>
+  <text x="242" y="138" fill="#6b6b64" font-family="Manrope, Arial, sans-serif" font-size="14" font-weight="400">
+    <tspan x="242" dy="0">Create an account and save your own</tspan>
+    <tspan x="242" dy="20">copy of the workshop template.</tspan>
+  </text>
+  <rect x="242" y="178" width="320" height="72" rx="5" fill="#222220"/>
+  <text x="258" y="208" fill="#f2f2ec" font-family="DM Mono, ui-monospace, monospace" font-size="14">File &#8594; Save</text>
+  <text x="258" y="230" fill="#f2f2ec" font-family="DM Mono, ui-monospace, monospace" font-size="14">template sketch</text>
+</svg>

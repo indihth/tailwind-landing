@@ -1,0 +1,14 @@
+{
+  "name": "tailwind-landing",
+  "private": true,
+  "scripts": {
+    "build": "tailwindcss -i ./src/theme.css -o ./dist/styles.css --minify",
+    "dev": "concurrently -k -n css,server -c cyan,green \"tailwindcss -i ./src/theme.css -o ./dist/styles.css --watch\" \"serve . --listen tcp://127.0.0.1:8000 --no-clipboard\""
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4",
+    "concurrently": "^9",
+    "serve": "^14",
+    "tailwindcss": "^4"
+  }
+}
